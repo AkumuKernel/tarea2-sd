@@ -1,0 +1,4 @@
+kafka-python
+confluent-kafka
+psycopg2==2.9.5
+psycopg2-binary==2.8.5
