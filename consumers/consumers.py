@@ -70,11 +70,10 @@ def consume_messages(topic_name, table_name):
             try:
                 cursor.execute(insert_stmt, values)
                 conn.commit()
+                cont += 1
             except psycopg2.Error as e:
                 print(f"Error al insertar en la base de datos: {e}")
                 conn.rollback()
-
-            cont += 1
     finally:
         # Cerramos el consumidor explícitamente
         consumer.close()

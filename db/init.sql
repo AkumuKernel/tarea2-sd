@@ -4,7 +4,7 @@ CREATE TABLE formulario (
     id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
     timestamp TIMESTAMP, 
     nombre TEXT, 
-    email TEXT, 
+    email TEXT UNIQUE, 
     password TEXT, 
     tipo TEXT
 );

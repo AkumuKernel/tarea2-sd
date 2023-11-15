@@ -31,7 +31,7 @@ stock_mote_con_huesillo = 1000  # Stock inicial de Mote con Huesillo
 def enviar_formulario(repeticiones):
     topic = topic_formulario
     try:
-        for _ in range(repeticiones):  # Genera 10 datos aleatorios
+        for _ in range(repeticiones):
             tipo = random.choice(['normal', 'pagado'])  # Seleccionar aleatoriamente un tipo
             particion = unidad_particion_map[tipo]
             nombre, email = generar_nombre_correo()
@@ -51,7 +51,7 @@ def enviar_formulario(repeticiones):
 def reponer_ingredientes(repeticiones):
     topic = topic_ingredientes
     try:
-        for _ in range(repeticiones):  # Genera 10 datos aleatorios
+        for _ in range(repeticiones):
             # Ingredientes agotados para Mote con Huesillo
             ingredientes = ['huesillo', 'mote', 'azúcar', 'cáscara de limón', 'agua', 'hielo']
             ingrediente = random.choice(ingredientes)
@@ -69,7 +69,7 @@ def registrar_venta(repeticiones):
     global stock_mote_con_huesillo
     topic = topic_ventas
     try:
-        for _ in range(repeticiones):  # Genera 10 ventas aleatorias
+        for _ in range(repeticiones): 
             if stock_mote_con_huesillo <= 0:
                 print("¡Se ha agotado el stock de Mote con Huesillo!")
                 break
