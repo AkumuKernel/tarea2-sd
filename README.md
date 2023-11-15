@@ -67,15 +67,17 @@ python consumers.py
 
 ### Iniciar la vista de la base de datos:
 Existen 2 formas de acceder a la base de datos, la primera es en base a pgadmin4, utilizando el link [localhost:81](http://localhost:81/), y accediendo con las siguientes credenciales
-> admin@admin.com
-> admin
+> admin@admin.com<br>
+> admin<br>
+
 Dentro de pgAdmin4 seleccionar "Add new server"
 En el apartado de general se inserta el nombre que usted desee.
 En el apartado de "Connection" debe ingresar los siguientes datos:
-> Host name/ address: db
-> Port: 5432
-> Username: postgres
-> Password: postgres
+
+> Host name/address: db<br>
+> Port: 5432<br>
+> Username: postgres<br>
+> Password: postgres<br>
 Y así se tendrá acceso a la base de datos.
 
 O utilizando el siguiente comando dentro del contendor db
