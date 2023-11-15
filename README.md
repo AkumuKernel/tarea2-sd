@@ -78,6 +78,7 @@ En el apartado de "Connection" debe ingresar los siguientes datos:
 > Port: 5432<br>
 > Username: postgres<br>
 > Password: postgres<br>
+
 Y así se tendrá acceso a la base de datos.
 
 O utilizando el siguiente comando dentro del contendor db
