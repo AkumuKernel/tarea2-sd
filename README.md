@@ -94,6 +94,7 @@ Al momento de ejecutar el producers.py dentro del contenedor de producers_kafka 
 >2. Notificar ingrediente agotado (Mote con Huesillo)
 >3. Registrar venta de Mote con Huesillo
 >4. Salir
+>
 >Elige una opción:
 
 Aquí se pueden insertar cualquier tipo de opcion, sin que el programa tenga problemas.
@@ -105,6 +106,7 @@ Al ejecutar el programa consumers.py dentro del contendor de consumers_kafka apa
 > 3. Consumir mensajes de mote.ventas
 > 4. Terminar la semana
 > 5. Salir
+> 
 >Elige una opción:
 
 Aquí se pueden insertar cualquier tipo de opcion, sin que el programa tenga problemas.
@@ -115,6 +117,7 @@ Al momento de seleccionar el 4 aparecerá este otro menú:
 > 2. Notificar reposicion
 > 3. Enviar ganacias y ventas
 > 4. Salir
+> 
 >Elige una opción:
 
 Aquí pueden existir problemas si no se inserta una variable únicamente númerica.
